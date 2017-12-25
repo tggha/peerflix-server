@@ -8,9 +8,8 @@
   },
   "scripts": {
     "start": "node ./server/bin.js",
-    "test": "grunt test",
-    "postinstall": "./node_modules/bower/bin/bower install"
-  },
+    "test": "grunt test"
+   },
   "main": "./server/bin.js",
   "repository": {
     "type": "git",
