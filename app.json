@@ -2,4 +2,21 @@
 	"name": "peerflix-server",
 	"description": "Streaming.",
 	"repository":  "https://github.com/tggha/peerflix-server",
+  	"keywords": [
+		"bittorrent",
+		"torrent",
+		"stream",
+		"peerflix",
+		"server",
+		"web"
+	],
+	"buildpacks" : [
+		{
+			"url" : "https://github.com/mbuchetics/heroku-buildpack-nodejs-grunt.git"
+		},
+    {
+      "url" : "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+	]
 }
+
